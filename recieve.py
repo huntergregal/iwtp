@@ -4,5 +4,5 @@ from scapy.all import *
 
 #
 
-sniff(filter="udp and (port 9013)")
+sniff(filter="udp and port 9013")
 
